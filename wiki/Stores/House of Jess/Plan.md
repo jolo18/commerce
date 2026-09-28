@@ -10,7 +10,7 @@ Each step: input, output, approval gate, commit. Tick as you go when this is cop
 
 ## Phase 0: Foundation
 - [x] 1. Scaffold store (`scripts/new-store`)
-- [ ] 2. Unblock image generation (fal key, network allowlist)
+- [x] 2. Unblock image generation (fal key, network allowlist)
 - [x] 3. Record Shopify baseline in `store.json`
 
 ## Phase 1: Brand

@@ -21,7 +21,7 @@ Affordable demi-fine jewellery for India. Relaunch in progress.
 - [Launch candidates](<Products/Launch Candidates.md>)
 
 ## Current step
-**Step 2: unblock fal.** Then step 3 baseline is done (see Log), so next is **step 4, A1 Brand brief**.
+Steps 1 to 3 done. Next: **step 4, A1 Brand brief**.
 
 ## Decisions
 - [001 Archive legacy catalogue](<Decisions/001 Archive legacy catalogue.md>)
