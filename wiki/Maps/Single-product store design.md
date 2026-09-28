@@ -16,3 +16,5 @@ How to design and merchandise a store with one to a handful of products.
 - [202609281606 A sticky add to cart bar is essential on mobile product pages](<../Zettel/202609281606 A sticky add to cart bar is essential on mobile product pages.md>)
 - [202609281607 A plain language guarantee beats trust badges](<../Zettel/202609281607 A plain language guarantee beats trust badges.md>)
 - [202609281610 Frame a small launch as a curated drop](<../Zettel/202609281610 Frame a small launch as a curated drop.md>)
+- [Show the value you removed next to the price](<../Zettel/202609281617 Show the value you removed next to the price.md>)
+- [Small frequent drops turn a catalogue into a feed](<../Zettel/202609281618 Small frequent drops turn a catalogue into a feed.md>)
