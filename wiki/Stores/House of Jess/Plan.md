@@ -17,7 +17,7 @@ Each step: input, output, approval gate, commit. Tick as you go when this is cop
 - [x] 4. A1 Brand brief: name, audience, price band, 3 vibe words, launch set
 - [x] 5. A2 Colour palette: 3 options previewed, pick one
 - [x] 6. A3 Typography: 3 pairings from the Shopify font library, pick one
-- [ ] 7. A4 Brand assets: wordmark, logo light and dark, favicon, social share image
+- [x] 7. A4 Brand assets: wordmark, logo light and dark, favicon, social share image
 - [ ] 8. A5 Photo style guide: backdrop, light, props, model direction, prompt template
 
 ## Phase 2: Imagery

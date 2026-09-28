@@ -21,7 +21,7 @@ Affordable demi-fine jewellery for India. Relaunch in progress.
 - [Launch candidates](<Products/Launch Candidates.md>)
 
 ## Current step
-Steps 1 to 6 done. Next: **step 7, A4 Logo and assets**.
+Steps 1 to 7 done (logo exports pending). Next: **step 8, A5 Photo style guide**.
 
 ## Decisions
 - [001 Archive legacy catalogue](<Decisions/001 Archive legacy catalogue.md>)
@@ -29,3 +29,4 @@ Steps 1 to 6 done. Next: **step 7, A4 Logo and assets**.
 - [003 Brand brief](<Decisions/003 Brand brief.md>)
 - [004 Colour palette](<Decisions/004 Colour palette.md>)
 - [005 Typography](<Decisions/005 Typography.md>)
+- [006 Logo](<Decisions/006 Logo.md>)

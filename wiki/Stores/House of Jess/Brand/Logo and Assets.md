@@ -2,7 +2,7 @@
 type: brand
 store: house-of-jess
 step: A4
-status: in-review
+status: approved
 updated: 2026-09-28
 ---
 # Logo and Assets
@@ -33,4 +33,4 @@ Logo shows just "Jess". Second round on the canvas (row "Logo: just Jess"):
 Open question: does the store name stay House of Jess (logo shows Jess only), or is the brand renamed to Jess?
 
 ## Decision
-Pending. Record as 006 when picked.
+**J5 Jess.** See [006 Logo](<../Decisions/006 Logo.md>).

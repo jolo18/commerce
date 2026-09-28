@@ -30,7 +30,7 @@ No gradients. [Colour Palette](<Colour Palette.md>)
 Headings Fraunces light, sentence case. Body and UI Manrope. Eyebrows Manrope 12px caps in plum. [Typography](<Typography.md>)
 
 ## Logo
-Pending A4. [Logo and Assets](<Logo and Assets.md>)
+*Jess* in Fraunces light italic with a plum full stop: **Jess.** Small mark: *J.* Store name stays House of Jess. [Logo and Assets](<Logo and Assets.md>)
 
 ## Photography
 Pending A5. [Photo Style Guide](<Photo Style Guide.md>)
