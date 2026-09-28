@@ -21,9 +21,10 @@ Affordable demi-fine jewellery for India. Relaunch in progress.
 - [Launch candidates](<Products/Launch Candidates.md>)
 
 ## Current step
-Steps 1 to 4 done. Next: **step 5, A2 Colour palette**.
+Steps 1 to 5 done. Next: **step 6, A3 Typography**.
 
 ## Decisions
 - [001 Archive legacy catalogue](<Decisions/001 Archive legacy catalogue.md>)
 - [002 Monorepo with Zettelkasten wiki](<Decisions/002 Monorepo with Zettelkasten wiki.md>)
 - [003 Brand brief](<Decisions/003 Brand brief.md>)
+- [004 Colour palette](<Decisions/004 Colour palette.md>)

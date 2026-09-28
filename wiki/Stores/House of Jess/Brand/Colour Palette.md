@@ -2,7 +2,7 @@
 type: brand
 store: house-of-jess
 step: A2
-status: in-review
+status: approved
 updated: 2026-09-28
 ---
 # Colour Palette
@@ -29,4 +29,4 @@ Also on the live theme: countdown timer and sales popup apps, which conflict wit
 | 10 | Midnight Champagne | #17161B | #221F27 | #F3EEE6 | #B3ABA2 | #CDB58A | #CDB58A | #17161B |
 
 ## Decision
-Pending. Record as 004 when picked.
+**01 House Evolved.** See [004 Colour palette](<../Decisions/004 Colour palette.md>).

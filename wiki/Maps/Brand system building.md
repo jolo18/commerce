@@ -13,3 +13,4 @@ Building a brand kit: positioning, palette, type, logo, voice.
 - [202609281608 Consistent photography matters more than the theme](<../Zettel/202609281608 Consistent photography matters more than the theme.md>)
 - [202609281609 Affordable quiet luxury means premium presentation at an everyday price](<../Zettel/202609281609 Affordable quiet luxury means premium presentation at an everyday price.md>)
 - [Write the brand as a knowledgeable friend not a luxury house](<../Zettel/202609281619 Write the brand as a knowledgeable friend not a luxury house.md>)
+- [Evolve existing brand colours before replacing them](<../Zettel/202609281620 Evolve existing brand colours before replacing them.md>)
