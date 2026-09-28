@@ -16,3 +16,4 @@ store: house-of-jess
 - 2026-09-28: A4 logo exploration published (5 wordmark and mark options). Awaiting pick.
 - 2026-09-28: Logo direction: just "Jess". Five Jess-only options added (J1 to J5).
 - 2026-09-28: A4 logo approved: J5 "Jess." (store name assumed unchanged). Exports pending.
+- 2026-09-28: A5 photo research done (10 brands). First photo direction rejected; proposed "Warm daylight, real Indian skin". Awaiting approval.
