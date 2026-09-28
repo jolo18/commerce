@@ -2,7 +2,7 @@
 type: brand
 store: house-of-jess
 step: A3
-status: in-review
+status: approved
 updated: 2026-09-28
 ---
 # Typography
@@ -21,4 +21,4 @@ Scale: H1 56 / 36 mobile, H2 32 / 26, H3 22 / 20, body 16, eyebrow 12 caps.
 Current store uses Avenir Next Rounded (Sense). Unverified handles (EB Garamond, Bodoni Moda, Jost) get confirmed in D2.
 
 ## Decision
-Pending. Record as 005 when picked.
+**T2 Soft Modern: Fraunces over Manrope.** See [005 Typography](<../Decisions/005 Typography.md>).

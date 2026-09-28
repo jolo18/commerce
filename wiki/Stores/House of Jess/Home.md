@@ -16,15 +16,16 @@ Affordable demi-fine jewellery for India. Relaunch in progress.
 
 - [Plan](<Plan.md>)
 - [Log](<Log.md>)
-- Brand: [Brief](<Brand/Brand Brief.md>) · [Palette](<Brand/Colour Palette.md>) · [Type](<Brand/Typography.md>) · [Logo](<Brand/Logo and Assets.md>) · [Photo style](<Brand/Photo Style Guide.md>)
+- Brand: [Guide](<Brand/Brand Guide.md>) · [Brief](<Brand/Brand Brief.md>) · [Palette](<Brand/Colour Palette.md>) · [Type](<Brand/Typography.md>) · [Logo](<Brand/Logo and Assets.md>) · [Photo style](<Brand/Photo Style Guide.md>)
 - Design: [Homepage](<Design/Homepage.md>) · [Product page](<Design/Product Page.md>)
 - [Launch candidates](<Products/Launch Candidates.md>)
 
 ## Current step
-Steps 1 to 5 done. Next: **step 6, A3 Typography**.
+Steps 1 to 6 done. Next: **step 7, A4 Logo and assets**.
 
 ## Decisions
 - [001 Archive legacy catalogue](<Decisions/001 Archive legacy catalogue.md>)
 - [002 Monorepo with Zettelkasten wiki](<Decisions/002 Monorepo with Zettelkasten wiki.md>)
 - [003 Brand brief](<Decisions/003 Brand brief.md>)
 - [004 Colour palette](<Decisions/004 Colour palette.md>)
+- [005 Typography](<Decisions/005 Typography.md>)
