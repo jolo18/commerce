@@ -14,3 +14,4 @@ store: house-of-jess
 - 2026-09-28: A3 typography exploration published (5 pairings on House Evolved). Awaiting pick.
 - 2026-09-28: A3 typography approved: Fraunces over Manrope (T2). Brand guide page added. Design canvas updated to brand fonts.
 - 2026-09-28: A4 logo exploration published (5 wordmark and mark options). Awaiting pick.
+- 2026-09-28: Logo direction: just "Jess". Five Jess-only options added (J1 to J5).
