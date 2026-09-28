@@ -1,0 +1,47 @@
+{
+  "status": "pending",
+  "_note": "Filled in during steps A1 to A5. Theme settings (D2) and image prompts (B2, B3) read from here.",
+  "name": null,
+  "positioning": "affordable quiet luxury: look like a premium brand, priced for everyday",
+  "tagline": null,
+  "audience": null,
+  "price_band_inr": null,
+  "voice": {
+    "words": [],
+    "do": [],
+    "dont": []
+  },
+  "palette": {
+    "background": null,
+    "surface": null,
+    "text": null,
+    "muted": null,
+    "accent": null,
+    "button": null,
+    "button_text": null
+  },
+  "typography": {
+    "heading": null,
+    "body": null,
+    "source": "shopify font library"
+  },
+  "logo": {
+    "wordmark_svg": null,
+    "light_png": null,
+    "dark_png": null,
+    "favicon": null,
+    "social_share": null
+  },
+  "photo_style": {
+    "backdrop": null,
+    "lighting": null,
+    "props": [],
+    "model_direction": null,
+    "prompt_template": null,
+    "shots": {},
+    "models": {
+      "generate": null,
+      "edit": null
+    }
+  }
+}

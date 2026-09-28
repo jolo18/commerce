@@ -1,0 +1,73 @@
+name: Deploy themes
+
+# Pushes changed store themes to their UNPUBLISHED dev theme.
+# Publishing to live is always a manual step in Shopify admin.
+#
+# Per store, add a GitHub Actions secret named
+#   SHOPIFY_CLI_THEME_TOKEN_<SLUG_UPPER_SNAKE>   e.g. SHOPIFY_CLI_THEME_TOKEN_HOUSE_OF_JESS
+# holding a Theme Access app password, and set themes.dev in stores/<slug>/store.config.json.
+
+on:
+  push:
+    branches: [main]
+    paths: ["stores/*/theme/**"]
+  workflow_dispatch:
+    inputs:
+      store:
+        description: "Store slug to deploy (e.g. house-of-jess)"
+        required: true
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      stores: ${{ steps.pick.outputs.stores }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.store }}" ]; then
+            list="${{ github.event.inputs.store }}"
+          else
+            list=$(git diff --name-only HEAD~1 HEAD -- 'stores/*/theme/**' | cut -d/ -f2 | sort -u | tr '\n' ' ')
+          fi
+          json=$(printf '%s\n' $list | jq -R . | jq -cs 'map(select(length>0))')
+          echo "stores=$json" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: detect
+    if: needs.detect.outputs.stores != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        store: ${{ fromJson(needs.detect.outputs.stores) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install -g @shopify/cli@latest
+      - name: Read store config
+        id: cfg
+        run: |
+          cfg="stores/${{ matrix.store }}/store.config.json"
+          echo "shop=$(jq -r .shop_domain "$cfg")" >> "$GITHUB_OUTPUT"
+          echo "theme=$(jq -r '.themes.dev // empty' "$cfg")" >> "$GITHUB_OUTPUT"
+          echo "secret=SHOPIFY_CLI_THEME_TOKEN_$(echo '${{ matrix.store }}' | tr 'a-z-' 'A-Z_')" >> "$GITHUB_OUTPUT"
+      - name: Guard
+        run: |
+          test -f "stores/${{ matrix.store }}/theme/layout/theme.liquid" || { echo "No theme source yet, skipping"; exit 0; }
+          test -n "${{ steps.cfg.outputs.theme }}" || { echo "themes.dev not set in store.config.json"; exit 1; }
+      - name: Push to dev theme
+        if: hashFiles(format('stores/{0}/theme/layout/theme.liquid', matrix.store)) != ''
+        env:
+          SHOPIFY_CLI_THEME_TOKEN: ${{ secrets[steps.cfg.outputs.secret] }}
+          SHOPIFY_FLAG_STORE: ${{ steps.cfg.outputs.shop }}
+        run: |
+          shopify theme push \
+            --path "stores/${{ matrix.store }}/theme" \
+            --theme "${{ steps.cfg.outputs.theme }}" \
+            --nodelete

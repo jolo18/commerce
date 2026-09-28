@@ -1,0 +1,65 @@
+{
+  "synced_at": "2026-09-28",
+  "source": "Shopify Admin via Claude connector",
+  "summary": {
+    "total_products": 58,
+    "active": 0,
+    "archived": 58,
+    "draft": 0
+  },
+  "_note": "All 58 legacy products are archived. Launch set is decided in step 4 (A1). Candidates below were the last five kept active before the full archive.",
+  "launch_candidates": [
+    {
+      "title": "Heart Pendant",
+      "id": "gid://shopify/Product/9395447464249",
+      "handle": "house-of-jess-heart-pendant",
+      "price": 499,
+      "stock": 1,
+      "status": "ARCHIVED",
+      "material": "316L stainless steel, 18k gold coated"
+    },
+    {
+      "title": "Pink Crystal Heart Pendant",
+      "id": "gid://shopify/Product/9395455000889",
+      "handle": "pink-crystal-heart-pendant",
+      "price": 499,
+      "stock": 5,
+      "status": "ARCHIVED",
+      "material": "gold plated, anti tarnish"
+    },
+    {
+      "title": "Classic Evil Eye Pendant",
+      "id": "gid://shopify/Product/9395452248377",
+      "handle": "house-of-jess-evil-eye-pendant",
+      "price": 499,
+      "stock": 3,
+      "status": "ARCHIVED",
+      "material": "gold plated, anti tarnish"
+    },
+    {
+      "title": "Mermaid Tale Necklace",
+      "id": "gid://shopify/Product/9823133040953",
+      "handle": "mermaid-tale-necklace",
+      "price": 499,
+      "stock": 0,
+      "status": "ARCHIVED",
+      "material": null
+    },
+    {
+      "title": "Pearl Butterfly Pendant",
+      "id": "gid://shopify/Product/9823132713273",
+      "handle": "pearl-butterfly-pendant",
+      "price": 499,
+      "stock": 0,
+      "status": "ARCHIVED",
+      "material": null
+    }
+  ],
+  "products": [],
+  "collections": [],
+  "menus": [],
+  "known_issues": [
+    "Legacy product types were inconsistent (rings typed as Earring). Fix on any product that is revived.",
+    "Many legacy images are HEIC, which some browsers do not render."
+  ]
+}

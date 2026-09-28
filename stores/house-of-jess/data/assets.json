@@ -1,0 +1,15 @@
+{
+  "_schema": {
+    "id": "string",
+    "purpose": "product:<handle> | site:<slot> | brand:<asset>",
+    "shot": "packshot | worn | macro | flatlay | scale | hero | ...",
+    "model": "fal model id",
+    "prompt": "string",
+    "fal_url": "temporary",
+    "local_path": "ignored by git",
+    "shopify_url": "permanent",
+    "status": "candidate | approved | rejected | live",
+    "created": "YYYY-MM-DD"
+  },
+  "assets": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "House of Jess",
+  "slug": "house-of-jess",
+  "shop_domain": "88d457-c1.myshopify.com",
+  "plan": "Basic",
+  "currency": "INR",
+  "timezone": "IST",
+  "country": "India",
+  "themes": {
+    "live": {
+      "id": "gid://shopify/OnlineStoreTheme/166570623289",
+      "name": "Sense"
+    },
+    "installed": [
+      {
+        "id": "gid://shopify/OnlineStoreTheme/166570492217",
+        "name": "Dawn",
+        "role": "UNPUBLISHED"
+      }
+    ],
+    "dev": null
+  }
+}

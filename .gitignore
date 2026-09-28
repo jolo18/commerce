@@ -1,0 +1,26 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Obsidian per-device state (settings in .obsidian/*.json are committed)
+wiki/.obsidian/workspace*.json
+wiki/.obsidian/cache
+wiki/.trash/
+
+# generated images: hosted on Shopify, registered in assets.json
+stores/*/assets/raw/
+stores/*/assets/generated/
+
+# tooling
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.shopify/

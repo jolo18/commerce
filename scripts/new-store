@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Usage: scripts/new-store <slug> "<Store Name>" <shop-domain>
+set -euo pipefail
+slug="${1:?slug}"; name="${2:?store name}"; shop="${3:?shop domain}"
+root="$(cd "$(dirname "$0")/.." && pwd)"
+store="$root/stores/$slug"; wiki="$root/wiki/Stores/$name"
+[ -e "$store" ] && { echo "stores/$slug already exists"; exit 1; }
+
+mkdir -p "$store/theme" "$store/data" "$wiki"/{Brand,Decisions,Design,Products,Setup}
+cat > "$store/store.config.json" <<EOF
+{
+  "name": "$name",
+  "slug": "$slug",
+  "shop_domain": "$shop",
+  "currency": "",
+  "timezone": "",
+  "themes": { "live": null, "dev": null }
+}
+EOF
+echo '{ "status": "pending", "palette": {}, "typography": {}, "voice": {}, "photo_style": {} }' > "$store/data/brand.json"
+echo '{ "products": [], "collections": [], "menus": [] }' > "$store/data/store.json"
+echo '{ "assets": [] }' > "$store/data/assets.json"
+printf '# %s theme\n\nTheme source lands here in step D1.\n' "$name" > "$store/theme/README.md"
+
+today="$(date +%F)"
+sed -e "s/{{STORE}}/$name/g" -e "s/{{SLUG}}/$slug/g" -e "s/{{DATE}}/$today/g" \
+  "$root/wiki/Templates/Store Home.md" > "$wiki/Home.md"
+sed "/^Related:/d" "$root/wiki/Playbooks/Launch a new Shopify store.md" > "$wiki/Plan.md"
+printf -- '---\ntype: log\n---\n# %s log\n\n- %s: store scaffolded\n' "$name" "$today" > "$wiki/Log.md"
+echo "Created stores/$slug and wiki/Stores/$name"
