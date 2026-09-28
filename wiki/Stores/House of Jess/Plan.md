@@ -14,7 +14,7 @@ Each step: input, output, approval gate, commit. Tick as you go when this is cop
 - [x] 3. Record Shopify baseline in `store.json`
 
 ## Phase 1: Brand
-- [ ] 4. A1 Brand brief: name, audience, price band, 3 vibe words, launch set
+- [x] 4. A1 Brand brief: name, audience, price band, 3 vibe words, launch set
 - [ ] 5. A2 Colour palette: 3 options previewed, pick one
 - [ ] 6. A3 Typography: 3 pairings from the Shopify font library, pick one
 - [ ] 7. A4 Brand assets: wordmark, logo light and dark, favicon, social share image
