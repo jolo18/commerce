@@ -11,3 +11,4 @@ store: house-of-jess
 - 2026-09-28: A1 brand brief v2 approved (Mejuri-modelled, no gold framing). Tagline and launch set still open.
 - 2026-09-28: A2 palette exploration published (11 options incl. current store audit). Awaiting pick.
 - 2026-09-28: A2 palette approved: 01 House Evolved.
+- 2026-09-28: A3 typography exploration published (5 pairings on House Evolved). Awaiting pick.
