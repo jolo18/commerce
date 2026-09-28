@@ -13,3 +13,4 @@ store: house-of-jess
 - 2026-09-28: A2 palette approved: 01 House Evolved.
 - 2026-09-28: A3 typography exploration published (5 pairings on House Evolved). Awaiting pick.
 - 2026-09-28: A3 typography approved: Fraunces over Manrope (T2). Brand guide page added. Design canvas updated to brand fonts.
+- 2026-09-28: A4 logo exploration published (5 wordmark and mark options). Awaiting pick.
