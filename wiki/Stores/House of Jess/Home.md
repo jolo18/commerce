@@ -25,5 +25,5 @@ Steps 1 to 4 done. Next: **step 5, A2 Colour palette**.
 
 ## Decisions
 - [001 Archive legacy catalogue](<Decisions/001 Archive legacy catalogue.md>)
-- [003 Brand brief](<Decisions/003 Brand brief.md>)
 - [002 Monorepo with Zettelkasten wiki](<Decisions/002 Monorepo with Zettelkasten wiki.md>)
+- [003 Brand brief](<Decisions/003 Brand brief.md>)
